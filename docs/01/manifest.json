@@ -1,0 +1,3297 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://example.org/iiif/abc/manifest",
+    "label": {
+        "none": [
+            "GOCR"
+        ]
+    },
+    "type": "Manifest",
+    "items": [
+        {
+            "id": "http://example.org/iiif/abc/canvas/p2",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "GOCR"
+                ]
+            },
+            "height": 4804,
+            "width": 3060,
+            "items": [
+                {
+                    "id": "http://example.org/iiif/abc/annotation/p0002-image",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "id": "images/demo.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 4804,
+                                "width": 3060
+                            },
+                            "id": "http://example.org/iiif/abc/annotation/p0002-image/anno",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "http://example.org/iiif/abc/canvas/p2"
+                        }
+                    ]
+                }
+            ],
+            "annotations": [
+                {
+                    "id": "http://example.org/iiif/abc/canvas/p2/curation",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00001] jugement",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=666/101/551/72",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=666,101,551,72"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00002] du",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1326/55/132/101",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1326,55,132,101"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00003] poids",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1515/79/276/116",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1515,79,276,116"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00004] e",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1860/61/68/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1860,61,68,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00005] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1994/63/113/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1994,63,113,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00006] la",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2132/65/96/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2132,65,96,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00007] solidité",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2258/67/374/114",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2258,67,374,114"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00008] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2651/75/47/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2651,75,47,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00009] (",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2734/77/63/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2734,77,63,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00010] 11",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2802/78/96/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2802,78,96,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00011] )",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2888/79/64/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2888,79,64,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00012] figures",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=147/164/374/72",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=147,164,374,72"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00013] ,",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=449/101/81/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=449,101,81,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00014] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=537/83/125/123",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=537,83,125,123"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00015] ец",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=8/395/62/157",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=8,395,62,157"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00016] дні",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=187/407/110/161",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=187,407,110,161"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00017] bas",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=-32/276/106/71",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=-32,276,106,71"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00018] Ainsi",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=157/305/260/45",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=157,305,260,45"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00019] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=448/256/96/52",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=448,256,96,52"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00020] toucher",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=592/243/391/43",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=592,243,391,43"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00021] étam",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1043/213/245/65",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1043,213,245,65"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00022] celor",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1445/219/246/70",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1445,219,246,70"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00023] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1734/201/120/71",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1734,201,120,71"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00024] tous",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1908/213/224/57",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1908,213,224,57"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00025] les",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2179/202/112/69",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2179,202,112,69"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00026] sens",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2314/203/213/85",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2314,203,213,85"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00027] celui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2571/205/233/57",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2571,205,233,57"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00028] nous",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=361/348/218/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=361,348,218,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00029] instruit",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=626/347/409/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=626,347,409,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00030] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1106/344/120/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1106,344,120,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00031] mieux",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1304/343/362/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1304,343,362,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00032] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1739/341/119/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1739,341,119,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00033] l'impression",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1903/340/679/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1903,340,679,117"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00034] que",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2640/336/169/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2640,336,169,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00035] les",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2831/335/116/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2831,335,116,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00036] qui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=154/444/183/94",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=154,444,183,94"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00037] corps",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=172/535/238/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=172,535,238,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00038] étrangers",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=468/525/507/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=468,525,507,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00039] peuvent",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1054/506/493/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1054,506,493,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00040] faire",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1589/487/318/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1589,487,318,117"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00041] sur",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1932/476/228/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1932,476,228,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00042] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2207/467/104/124",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2207,467,104,124"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00043] nôtre",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2343/463/308/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2343,463,308,117"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00044] est",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2724/449/179/122",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2724,449,179,122"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00045] ului",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=162/650/198/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=162,650,198,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00046] dont",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=409/648/254/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=409,648,254,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00047] l'usage",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=707/645/431/131",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=707,645,431,131"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00048] en",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1207/641/143/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1207,641,143,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00049] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1431/639/101/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1431,639,101,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00050] plus",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1594/637/267/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1594,637,267,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00051] fréq",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1914/634/277/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1914,634,277,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00052] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=6/546/80/97",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=6,546,80,97"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00053] nous",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2717/622/191/47",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2717,622,191,47"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00054] ua",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2208/655/96/74",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2208,655,96,74"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00055] n",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2303/648/108/73",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2303,648,108,73"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00056] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2450/639/69/76",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2450,639,69,76"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00057] et",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2537/634/138/71",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2537,634,138,71"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00058] pluss",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=334/774/247/100",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=334,774,247,100"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00059] immediatement",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=605/775/830/36",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=605,775,830,36"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00060] Hel",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=638/833/186/41",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=638,833,186,41"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00061] Hant",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=932/829/424/37",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=932,829,424,37"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00062] la",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1521/773/112/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1521,773,112,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00063] connoissance",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1679/769/717/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1679,769,717,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00064] néce",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2451/754/205/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2451,754,205,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00065] poire",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2651/750/245/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2651,750,245,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00066] Jound",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=31/148/74/116",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=31,148,74,116"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00067] à",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=164/978/60/64",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=164,978,60,64"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00068] nôtre",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=263/971/250/52",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=263,971,250,52"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00069] conservation",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=582/950/667/27",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=582,950,667,27"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00070] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1311/904/46/65",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1311,904,46,65"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00071] #",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1895/960/228/93",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1895,960,228,93"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00072] Sky",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=121/1124/335/88",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=121,1124,335,88"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00073] y",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=389/1093/84/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=389,1093,84,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00074] a",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=508/1091/81/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=508,1091,81,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00075] des",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=627/1089/168/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=627,1089,168,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00076] exercices",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=851/1086/516/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=851,1086,516,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00077] qui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1440/1078/180/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1440,1078,180,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00078] émoupen",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1694/1074/524/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1694,1074,524,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00079] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2358/1065/111/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2358,1065,111,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00080] founde",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2485/1063/428/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2485,1063,428,117"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00081] toucher",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=142/1238/356/110",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=142,1238,356,110"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00082] et",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=566/1234/96/112",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=566,1234,96,112"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00083] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=734/1233/89/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=734,1233,89,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00084] wendem",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=868/1232/423/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=868,1232,423,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00085] plus",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1400/1227/238/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1400,1227,238,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00086] obtus",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1686/1225/330/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1686,1225,330,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00087] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2014/1222/47/112",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2014,1222,47,112"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00088] D'autres",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2091/1221/472/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2091,1221,472,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00089] an",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2636/1217/162/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2636,1217,162,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00090] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2912/1214/74/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2912,1214,74,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00091] er",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=567/1264/101/82",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=567,1264,101,82"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00092] contraire",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=142/1406/435/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=142,1406,435,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00093] l'aiguipoort",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=650/1394/638/106",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=650,1394,638,106"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00094] e",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1360/1377/63/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1360,1377,63,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00095] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1482/1374/100/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1482,1374,100,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00096] rendem",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1621/1370/419/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1621,1370,419,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00097] u",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1372/1374/29/94",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1372,1374,29,94"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00098] plus",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2157/1394/250/89",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2157,1394,250,89"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00099] délicar",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2432/1379/443/78",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2432,1379,443,78"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00100] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2892/1355/58/98",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2892,1355,58,98"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00101] u",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=163/1518/58/140",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=163,1518,58,140"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00102] pless",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=260/1516/216/140",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=260,1516,216,140"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00103] fire",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=532/1513/225/140",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=532,1513,225,140"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00104] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=787/1511/53/140",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=787,1511,53,140"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00105] Les",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=872/1510/165/139",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=872,1510,165,139"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00106] prémiers",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1084/1507/502/137",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1084,1507,502,137"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00107] fomencen",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1644/1501/504/137",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1644,1501,504,137"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00108] qui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2293/1494/194/139",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2293,1494,194,139"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00109] joigram",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2510/1491/427/137",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2510,1491,427,137"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00110] beaucoup",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=143/1687/483/103",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=143,1687,483,103"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00111] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=701/1676/131/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=701,1676,131,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00112] mouvemem",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=896/1672/665/100",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=896,1672,665,100"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00113] сопро",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1125/1813/285/82",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1125,1813,285,82"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00114] дит",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1500/1777/170/93",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1500,1777,170,93"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00115] impression",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=145/1869/560/43",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=145,1869,560,43"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00116] den",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=768/1787/298/77",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=768,1787,298,77"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00117] a",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1739/1655/87/110",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1739,1655,87,110"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00118] la",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1886/1652/149/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1886,1652,149,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00119] continuelle",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2081/1648/669/100",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2081,1648,669,100"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00120] rodont",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1807/1752/328/49",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1807,1752,328,49"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00121] pont",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2192/1743/246/50",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2192,1743,246,50"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00122] we",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2430/1737/137/53",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2430,1737,137,53"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00123] un",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2563/1734/116/53",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2563,1734,116,53"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00124] Franen",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1818/1846/281/88",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1818,1846,281,88"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00125] payer",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1823/1818/299/98",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1823,1818,299,98"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00126] to",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2105/1807/152/103",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2105,1807,152,103"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00127] pe",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2307/1800/148/103",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2307,1800,148,103"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00128] aus",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2458/1795/149/102",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2458,1795,149,102"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00129] rude",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2652/1787/263/98",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2652,1787,263,98"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00130] рес",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2316/1810/182/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2316,1810,182,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00131] calleuse",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=281/1970/458/90",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=281,1970,458,90"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00132] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=706/1942/71/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=706,1942,71,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00133] e",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=804/1931/71/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=804,1931,71,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00134] lui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=943/1929/167/114",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=943,1929,167,114"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00135] ôtem",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1155/1927/244/114",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1155,1927,244,114"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00136] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1559/1923/88/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1559,1923,88,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00137] sentiment",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1690/1921/567/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1690,1921,567,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00138] naturel",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2335/1915/387/113",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2335,1915,387,113"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00139] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2739/1911/39/116",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2739,1911,39,116"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00140] Les",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2810/1911/142/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2810,1911,142,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00141] juones",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=116/2122/324/105",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=116,2122,324,105"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00142] ,",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=382/2117/95/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=382,2117,95,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00143] four",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=481/2115/250/105",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=481,2115,250,105"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00144] ceux",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=818/2108/244/106",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=818,2108,244,106"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00145] qui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1095/2103/184/106",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1095,2103,184,106"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00146] varient",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1354/2097/452/102",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1354,2097,452,102"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00147] ces",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1901/2087/120/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1901,2087,120,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00148] mêmes",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2070/2083/355/103",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2070,2083,355,103"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00149] sentiment",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2462/2075/500/101",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2462,2075,500,101"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00150] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2951/2066/36/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2951,2066,36,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00151] ран",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=147/2290/138/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=147,2290,138,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00152] Идеи",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=849/2263/282/111",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=849,2263,282,111"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00153] и",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1223/2248/40/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1223,2248,40,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00154] en",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2156/2250/128/88",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2156,2250,128,88"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00155] joute",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2342/2250/259/90",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2342,2250,259,90"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00156] qua",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2668/2253/212/89",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2668,2253,212,89"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00157] un",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=354/2242/151/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=354,2242,151,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00158] te",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=544/2242/270/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=544,2242,270,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00159] leger",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=877/2242/290/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=877,2242,290,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00160] es",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1220/2242/138/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1220,2242,138,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00161] fréquent",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1426/2242/587/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1426,2242,587,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00162] ,",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2060/2242/62/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2060,2242,62,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00163] l'espris",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=131/2421/357/115",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=131,2421,357,115"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00164] attentif",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=576/2412/456/113",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=576,2412,456,113"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00165] à",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1090/2403/95/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1090,2403,95,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00166] des",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1223/2400/181/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1223,2400,181,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00167] impressions",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1446/2396/710/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1446,2396,710,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00168] incepamment",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2210/2381/750/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2210,2381,750,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00169] répétées",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=146/2579/357/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=146,2579,357,126"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00170] auquiers",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=566/2569/455/124",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=566,2569,455,124"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00171] la",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1097/2556/135/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1097,2556,135,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00172] facilité",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1261/2552/472/124",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1261,2552,472,124"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00173] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1803/2539/136/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1803,2539,136,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00174] juger",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1979/2535/334/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1979,2535,334,126"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00175] toutes",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2344/2526/298/128",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2344,2526,298,128"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00176] leun",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2709/2517/185/131",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2709,2517,185,131"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00177] ,",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2874/2513/57/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2874,2513,57,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00178] modifications",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=144/2713/717/100",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=144,2713,717,100"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00179] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=888/2702/42/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=888,2702,42,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00180] Cette",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1001/2699/239/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1001,2699,239,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00181] différence",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1333/2694/558/102",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1333,2694,558,102"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00182] Jensible",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2186/2692/463/86",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2186,2692,463,86"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00183] dans",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2690/2676/224/94",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2690,2676,224,94"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00184] مها",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1831/1589/115/98",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1831,1589,115,98"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00185] XL.L.",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1991/2740/144/28",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1991,2740,144,28"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00186] ..",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2255/1131/60/14",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2255,1131,60,14"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00187] mage",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=68/2839/168/77",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=68,2839,168,77"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00188] Dez",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=254/2813/108/74",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=254,2813,108,74"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00189] the",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=138/2876/135/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=138,2876,135,126"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00190] font",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=275/2873/264/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=275,2873,264,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00191] instruemens",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=578/2865/667/112",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=578,2865,667,112"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00192] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1300/2847/124/125",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1300,2847,124,125"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00193] musique",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1481/2842/508/116",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1481,2842,508,116"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00194] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2036/2828/41/127",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2036,2828,41,127"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00195] Le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2127/2826/115/125",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2127,2826,115,125"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00196] toucher",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2260/2823/433/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2260,2823,433,117"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00197] dur",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2727/2811/199/123",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2727,2811,199,123"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00198] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2194/2975/130/92",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2194,2975,130,92"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00199] la",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2339/2973/119/93",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2339,2973,119,93"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00200] contrabasse",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2474/2971/500/88",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2474,2971,500,88"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00201] u",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=141/3037/72/104",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=141,3037,72,104"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00202] mecertripant",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=270/3033/754/80",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=270,3033,754,80"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00203] du",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1139/3002/146/102",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1139,3002,146,102"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00204] violoncelle",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1372/2994/664/84",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1372,2994,664,84"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00205] 75",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=64/3121/65/63",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=64,3121,65,63"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00206] zu",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=117/3151/129/150",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=117,3151,129,150"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00207] violon",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=282/3148/350/148",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=282,3148,350,148"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00208] même",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=697/3142/361/148",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=697,3142,361,148"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00209] enfrendant",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1202/3136/691/144",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1202,3136,691,144"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00210] _",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1892/3127/77/151",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1892,3127,77,151"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00211] les",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1974/3126/142/151",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1974,3126,142,151"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00212] doigts",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2163/3123/350/148",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2163,3123,350,148"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00213] flexible",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2553/3118/366/148",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2553,3118,366,148"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00214] ,",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2890/3114/50/151",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2890,3114,50,151"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00215] endurcite",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=131/3307/461/116",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=131,3307,461,116"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00216] levers",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=652/3298/264/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=652,3298,264,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00217] extrémités",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=985/3292/615/113",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=985,3292,615,113"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00218] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1618/3281/37/122",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1618,3281,37,122"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00219] Le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1722/3279/127/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1722,3279,127,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00220] toucher",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1889/3276/392/117",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1889,3276,392,117"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00221] lice",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2345/3268/215/119",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2345,3268,215,119"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00222] es",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2644/3263/168/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2644,3263,168,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00223] ролі",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=125/3472/190/110",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=125,3472,190,110"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00224] du",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=373/3457/127/108",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=373,3457,127,108"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00225] clavecin",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=585/3453/470/105",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=585,3453,470,105"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00226] les",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1183/3445/140/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1183,3445,140,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00227] rend",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1394/3442/269/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1394,3442,269,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00228] aufri",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1733/3437/305/107",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1733,3437,305,107"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00229] flexibles",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2105/3432/503/104",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2105,3432,503,104"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00230] er",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2697/3424/141/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2697,3424,141,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00231] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2840/3422/66/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2840,3422,66,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00232] plus",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=117/3614/202/93",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=117,3614,202,93"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00233] Jensibles",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=367/3607/449/85",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=367,3607,449,85"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00234] En",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1988/3587/149/70",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1988,3587,149,70"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00235] ceci",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2215/3579/213/69",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2215,3579,213,69"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00236] done",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2489/3570/245/67",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2489,3570,245,67"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00237] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2708/3563/60/73",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2708,3563,60,73"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00238] La",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2793/3560/118/71",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2793,3560,118,71"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00239] clavecin",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=138/3713/476/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=138,3713,476,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00240] est",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=689/3722/182/128",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=689,3722,182,128"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00241] à",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=960/3726/79/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=960,3726,79,126"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00242] préférer",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1086/3727/488/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1086,3727,488,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00243] .",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1569/3735/53/126",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1569,3735,53,126"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00244] en",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=907/3604/127/70",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=907,3604,127,70"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00245] même",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1121/3599/366/66",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1121,3599,366,66"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00246] tems",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1574/3590/284/68",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1574,3590,284,68"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00247] Il",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=271/3922/97/157",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=271,3922,97,157"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00248] importe",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=411/3920/479/151",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=411,3920,479,151"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00249] que",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=969/3913/222/154",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=969,3913,222,154"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00250] la",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1230/3909/153/155",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1230,3909,153,155"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00251] peau",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1434/3906/303/153",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1434,3906,303,153"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00252] s'endurcisse",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1829/3900/734/148",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1829,3900,734,148"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00253] aux",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2649/3889/253/155",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2649,3889,253,155"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00254] impressions",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=139/4077/607/99",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=139,4077,607,99"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00255] de",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=824/4072/125/101",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=824,4072,125,101"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00256] l'air",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=988/4071/288/101",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=988,4071,288,101"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00257] u",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1343/4069/65/102",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1343,4069,65,102"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00258] puisse",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1492/4085/371/92",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1492,4085,371,92"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00259] braver",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1939/4065/430/88",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1939,4065,430,88"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00260] toutes",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2430/4042/302/95",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2430,4042,302,95"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00261] jes",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2749/4028/153/101",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2749,4028,153,101"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00262] altérations",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=140/4196/601/129",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=140,4196,601,129"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00263] ;",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=755/4190/50/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=755,4190,50,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00264] car",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=852/4189/193/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=852,4189,193,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00265] c'est",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1079/4187/246/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1079,4187,246,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00266] elle",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1391/4184/234/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1391,4184,234,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00267] qui",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1685/4181/170/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1685,4181,170,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00268] défend",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1926/4178/352/131",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1926,4178,352,131"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00269] tour",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2343/4174/214/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2343,4174,214,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00270] le",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2599/4171/90/134",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2599,4171,90,134"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00271] reste",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2709/4170/202/133",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2709,4170,202,133"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00272] ,",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2902/4168/37/134",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2902,4168,37,134"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00273] A",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=143/4298/62/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=143,4298,62,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00274] cela",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=267/4306/175/127",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=267,4306,175,127"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00275] près",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=507/4323/200/129",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=507,4323,200,129"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00276] je",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=773/4343/107/122",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=773,4343,107,122"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00277] Its",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2155/4287/171/109",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2155,4287,171,109"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00278] mains",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2372/4297/319/114",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2372,4297,319,114"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00279] trop",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2696/4311/194/110",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2696,4311,194,110"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00280] не",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=940/4343/101/97",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=940,4343,101,97"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00281] поидной",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1097/4331/457/70",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1097,4331,457,70"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00282] pas",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1636/4336/210/122",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1636,4336,210,122"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00283] que",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1902/4341/209/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1902,4341,209,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00284] servilement",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=112/4470/679/118",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=112,4470,679,118"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00285] fatiguée",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=868/4458/485/121",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=868,4458,485,121"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00286] aux",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1402/4451/228/124",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1402,4451,228,124"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00287] mêmes",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1681/4446/351/123",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1681,4446,351,123"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00288] travaux",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2095/4440/467/120",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2095,4440,467,120"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00289] sa",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2636/4432/164/124",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2636,4432,164,124"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00290] raccorniture",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=134/4596/700/123",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=134,4596,700,123"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00291] ni",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=951/4583/128/132",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=951,4583,128,132"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00292] que",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1124/4581/209/130",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1124,4581,209,130"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00293] l'extrémité",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=1399/4576/643/124",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=1399,4576,643,124"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00294] des",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2119/4565/159/131",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2119,4565,159,131"
+                        },
+                        {
+                            "body": {
+                                "type": "TextualBody",
+                                "value": "[00295] doigts",
+                                "format": "text/plain"
+                            },
+                            "id": "http://example.org/iiif/abc/canvas/p2#xywh=2325/4562/335/128",
+                            "type": "Annotation",
+                            "motivation": "commenting",
+                            "target": "http://example.org/iiif/abc/canvas/p2#xywh=2325,4562,335,128"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
